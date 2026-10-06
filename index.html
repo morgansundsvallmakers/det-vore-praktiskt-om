@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STL-visare</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Enkel STL-visare</p>
+      <h1>Vrid och vänd på en 3D-modell</h1>
+      <p class="intro">
+        Välj eller dra in en STL-fil. Filen stannar i din webbläsare och laddas inte upp någonstans.
+      </p>
+    </header>
+
+    <section class="viewer-card">
+      <div class="toolbar">
+        <label class="file-button" for="stl-file">Välj STL-fil</label>
+        <input id="stl-file" type="file" accept=".stl,model/stl">
+        <button id="reset-view" type="button" disabled>Återställ vy</button>
+        <span id="file-name" class="file-name">Ingen fil vald</span>
+      </div>
+
+      <div id="drop-zone" class="drop-zone">
+        <canvas id="viewer" aria-label="3D-visning av STL-modell"></canvas>
+        <div id="empty-state" class="empty-state">
+          <strong>Släpp en STL-fil här</strong>
+          <span>eller använd knappen ovan</span>
+        </div>
+      </div>
+
+      <div class="help">
+        <span><strong>Vrid:</strong> vänster musknapp / ett finger</span>
+        <span><strong>Zooma:</strong> mushjul / nypgest</span>
+        <span><strong>Panorera:</strong> höger musknapp / två fingrar</span>
+      </div>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
