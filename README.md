@@ -16,6 +16,20 @@ Den färdiga sidan finns på:
 
 ---
 
+## 0. Skapa konton och koppla ChatGPT till GitHub
+
+Innan du börjar behöver du ett konto på både **ChatGPT** och **GitHub**.
+
+1. Skapa en användare på **ChatGPT**.
+2. Skapa en användare på **GitHub**.
+3. I ChatGPT öppnar du **Pluginer** och söker efter **GitHub**.
+4. Lägg till GitHub som plugin och anslut den till ditt GitHub-konto.
+5. När anslutningen är klar kan du senare välja vilka repositories ChatGPT ska få åtkomst till.
+
+Om du vill hålla experiment och småprojekt åtskilda från privata konton kan du använda ett separat e-postkonto för tjänsterna.
+
+![Hitta GitHub-pluginen i ChatGPT](<images/00 ChatGPT plugin inställning.png>)
+
 ## 1. Skapa ett nytt repository på GitHub
 
 Börja på GitHub och välj **New repository**.
