@@ -14,6 +14,14 @@ Den färdiga sidan finns på:
 
 **https://morgansundsvallmakers.github.io/det-vore-praktiskt-om/**
 
+### Öppna handouten på telefonen
+
+Skanna QR-koden för att öppna repot och den här handouten direkt på telefonen:
+
+![QR-kod till repot](<images/qr-det-vore-praktiskt-om.png>)
+
+**https://github.com/morgansundsvallmakers/det-vore-praktiskt-om**
+
 Arbetsgången nedan är testad med **ChatGPT Free**. GitHub-connectorn kunde då både läsa och skriva i det valda repot.
 
 ---
