@@ -53,15 +53,7 @@ Börja på GitHub och välj **New repository**.
 
 ![Skapa nytt repository](<images/01 skapa nytt repo på github.png>)
 
-Ge repot ett namn och en kort beskrivning. Det är praktiskt att låta GitHub skapa en README-fil direkt.
-
-![Inställningar för nytt repository](<images/02 skapa nytt repo på github steg 2.png>)
-
-I det här exemplet heter repot `det-vore-praktiskt-om`.
-
-![Namn och beskrivning](<images/03 skapa nytt repo på github steg 2b.png>)
-
-Om du följer guiden från ett helt nytt konto kan ett första, enkelt repo också skapas ungefär så här:
+Ge repot ett namn och en kort beskrivning. Det är praktiskt att låta GitHub skapa en README-fil direkt. Om du följer guiden från ett helt nytt konto kan inställningarna se ut ungefär så här:
 
 ![Första repot inför ChatGPT-kopplingen](<images/nytt repo - för att koppla chatgpt.png>)
 
