@@ -193,19 +193,11 @@ Gå vidare till **Applications**.
 
 Öppna inställningarna för ChatGPT/OpenAI-anslutningen.
 
-![Installerade GitHub-appar](<images/06 github settings för chatgptåtkomst 3.png>)
-
 GitHub kan i vissa lägen be dig bekräfta åtkomsten.
-
-![Bekräfta åtkomst](<images/07 github settings för chatgptåtkomst 4.png>)
 
 Under **Repository access** går det att välja vilka repositories ChatGPT ska få arbeta med.
 
-![Repository access](<images/08 github settings för chatgptåtkomst 5.png>)
-
 Lägg till eller ta bort repositories och spara.
-
-![Valt repository](<images/09 github settings för chatgptåtkomst 6.png>)
 
 ---
 
