@@ -30,8 +30,15 @@ Arbetsgången nedan är testad med **ChatGPT Free**. GitHub-connectorn kunde då
 
 Du behöver ett konto på både **ChatGPT** och **GitHub**.
 
-1. Skapa en användare på **ChatGPT**.
-2. Skapa en användare på **GitHub**.
+Använd de officiella adresserna:
+
+- **ChatGPT:** https://chatgpt.com
+- **GitHub:** https://github.com
+
+Skriv gärna adresserna direkt i webbläsarens adressfält i stället för att söka efter tjänsterna.
+
+1. Skapa en användare på **ChatGPT** via https://chatgpt.com
+2. Skapa en användare på **GitHub** via https://github.com
 3. Logga in på båda tjänsterna.
 
 Om du vill hålla experiment och småprojekt åtskilda från privata konton kan du använda ett separat e-postkonto för tjänsterna.
