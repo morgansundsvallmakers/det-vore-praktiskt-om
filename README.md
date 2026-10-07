@@ -117,10 +117,6 @@ När inställningen är sparad publiceras nya ändringar på `main` automatiskt.
 
 ![Pages aktiverat](<images/14 github settings för Pages 4.png>)
 
-För det här repot blir adressen:
-
-**https://morgansundsvallmakers.github.io/det-vore-praktiskt-om/**
-
 ---
 
 ## 5. Planera lösningen med ChatGPT
