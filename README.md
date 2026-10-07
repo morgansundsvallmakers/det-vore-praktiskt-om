@@ -123,8 +123,6 @@ För en enkel sida med vanlig HTML, CSS och JavaScript kan man välja:
 - **Branch:** `main`
 - **Folder:** `/(root)`
 
-![Välj publiceringskälla](<images/13 github settings för Pages 3.png>)
-
 När inställningen är sparad publiceras nya ändringar på `main` automatiskt.
 
 ![Pages aktiverat](<images/14 github settings för Pages 4.png>)
