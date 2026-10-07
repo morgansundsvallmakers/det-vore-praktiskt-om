@@ -14,23 +14,25 @@ Den färdiga sidan finns på:
 
 **https://morgansundsvallmakers.github.io/det-vore-praktiskt-om/**
 
+Arbetsgången nedan är testad med **ChatGPT Free**. GitHub-connectorn kunde då både läsa och skriva i det valda repot.
+
 ---
 
-## 0. Skapa konton och koppla ChatGPT till GitHub
+## 0. Skapa konton
 
-Innan du börjar behöver du ett konto på både **ChatGPT** och **GitHub**.
+Du behöver ett konto på både **ChatGPT** och **GitHub**.
 
 1. Skapa en användare på **ChatGPT**.
 2. Skapa en användare på **GitHub**.
-3. I ChatGPT öppnar du **Pluginer** och söker efter **GitHub**.
-4. Lägg till GitHub som plugin och anslut den till ditt GitHub-konto.
-5. När anslutningen är klar kan du senare välja vilka repositories ChatGPT ska få åtkomst till.
+3. Logga in på båda tjänsterna.
 
 Om du vill hålla experiment och småprojekt åtskilda från privata konton kan du använda ett separat e-postkonto för tjänsterna.
 
-![Hitta GitHub-pluginen i ChatGPT](<images/00 ChatGPT plugin inställning.png>)
+> **Viktigt:** skapa först ett repo på GitHub innan du kopplar GitHub till ChatGPT. När connectorn installeras behöver du välja vilket repo den ska få åtkomst till.
 
-## 1. Skapa ett nytt repository på GitHub
+---
+
+## 1. Skapa ditt första repository på GitHub
 
 Börja på GitHub och välj **New repository**.
 
@@ -44,39 +46,55 @@ I det här exemplet heter repot `det-vore-praktiskt-om`.
 
 ![Namn och beskrivning](<images/03 skapa nytt repo på github steg 2b.png>)
 
----
+Om du följer guiden från ett helt nytt konto kan ett första, enkelt repo också skapas ungefär så här:
 
-## 2. Ge ChatGPT åtkomst till repot
-
-Om GitHub redan är anslutet till ChatGPT kan man styra vilka repositories anslutningen får komma åt.
-
-Öppna GitHubs kontoinställningar via profilikonen och **Settings**.
-
-![GitHub Settings](<images/04 github settings för chatgptåtkomst.png>)
-
-Gå vidare till **Applications**.
-
-![Applications](<images/05 github settings för chatgptåtkomst 2.png>)
-
-Öppna inställningarna för ChatGPT/OpenAI-anslutningen.
-
-![Installerade GitHub-appar](<images/06 github settings för chatgptåtkomst 3.png>)
-
-GitHub kan i vissa lägen be dig bekräfta åtkomsten.
-
-![Bekräfta åtkomst](<images/07 github settings för chatgptåtkomst 4.png>)
-
-Under **Repository access** går det att välja endast de repositories som ChatGPT ska få arbeta med.
-
-![Repository access](<images/08 github settings för chatgptåtkomst 5.png>)
-
-Lägg till det nya repot och spara.
-
-![Valt repository](<images/09 github settings för chatgptåtkomst 6.png>)
+![Första repot inför ChatGPT-kopplingen](<images/nytt repo - för att koppla chatgpt.png>)
 
 ---
 
-## 3. Gör repot publikt om GitHub Pages ska användas gratis
+## 2. Koppla GitHub till ChatGPT
+
+När repot finns kan du koppla GitHub till ChatGPT.
+
+Öppna **Pluginer** i ChatGPT, sök efter **GitHub** och välj att lägga till den.
+
+![Hitta GitHub-pluginen](<images/Free ChatGPT plugin.png>)
+
+ChatGPT leder dig genom anslutningen. Beroende på hur ditt konto är inställt kan du behöva bekräfta autentisering eller använda tvåfaktorsautentisering.
+
+![Autentisering](<images/Free ChatGPT plugin 2.png>)
+
+Logga in på GitHub med det konto där du skapade repot.
+
+![Logga in på GitHub](<images/Free ChatGPT plugin 3.png>)
+
+När anslutningen är skapad får du möjlighet att konfigurera vilka repositories ChatGPT ska få arbeta med.
+
+![Konfigurera repositories](<images/Free ChatGPT plugin 4.png>)
+
+Välj helst **Only select repositories** och välj just det repo du vill använda.
+
+![Välj repo och behörigheter](<images/Free ChatGPT plugin 5.png>)
+
+GitHub visar vilka behörigheter connectorn får. För att ChatGPT ska kunna skapa och ändra filer behöver den skrivåtkomst till koden i det valda repot.
+
+När allt ser rätt ut väljer du **Install & Authorize**.
+
+---
+
+## 3. Kontrollera att kopplingen fungerar
+
+Innan du går vidare kan du göra ett mycket enkelt test i ChatGPT, till exempel:
+
+> **Skapa en fil som heter `test.txt` i mitt repo.**
+
+Kontrollera sedan på GitHub att filen verkligen har skapats.
+
+Om det fungerar vet du att ChatGPT kan arbeta direkt i repot.
+
+---
+
+## 4. Gör repot publikt om GitHub Pages ska användas gratis
 
 Jag skapade först repot privat och ändrade det sedan till publikt. Hade det varit publikt från början hade det här steget kunnat hoppas över.
 
@@ -88,7 +106,7 @@ Under **Settings → General → Danger Zone** går det att ändra repositoryts 
 
 ---
 
-## 4. Aktivera GitHub Pages
+## 5. Aktivera GitHub Pages
 
 GitHub Pages kan publicera en vanlig statisk webbsida direkt från repot.
 
@@ -118,9 +136,9 @@ För det här repot blir adressen:
 
 ---
 
-## 5. Börja med behovet – inte tekniken
+## 6. Börja med behovet – inte tekniken
 
-Nu kan man beskriva det man vill göra för ChatGPT.
+Nu kan du beskriva det du vill göra för ChatGPT.
 
 I det här fallet började idén så här:
 
@@ -134,7 +152,7 @@ ChatGPT kan hjälpa till att resonera om vad som behövs. För en enkel STL-visa
 
 ---
 
-## 6. Be ChatGPT bygga den första versionen
+## 7. Be ChatGPT bygga den första versionen
 
 Prompten behöver inte vara särskilt teknisk. Den här räckte:
 
@@ -142,7 +160,7 @@ Prompten behöver inte vara särskilt teknisk. Den här räckte:
 
 ![Prompten](<images/17 prompt.png>)
 
-Eftersom ChatGPT har åtkomst till repot kan det skapa filerna direkt där.
+Eftersom ChatGPT har åtkomst till repot kan den skapa filerna direkt där.
 
 I det här fallet blev det tre vanliga webbfiler:
 
@@ -154,13 +172,43 @@ I det här fallet blev det tre vanliga webbfiler:
 
 ---
 
-## 7. Öppna den färdiga sidan
+## 8. Öppna den färdiga sidan
 
 När filerna ligger på `main` publicerar GitHub Pages sidan automatiskt.
 
 Resultatet blev en STL-visare där man kan välja en lokal STL-fil och sedan vrida, zooma och panorera modellen direkt i webbläsaren.
 
 ![Den färdiga STL-visaren](<images/19 resultatet.png>)
+
+---
+
+## Om du senare vill ge ChatGPT åtkomst till fler repositories
+
+När GitHub redan är kopplat till ChatGPT kan du senare ändra vilka repositories connectorn får åtkomst till.
+
+Öppna GitHubs kontoinställningar via profilikonen och **Settings**.
+
+![GitHub Settings](<images/04 github settings för chatgptåtkomst.png>)
+
+Gå vidare till **Applications**.
+
+![Applications](<images/05 github settings för chatgptåtkomst 2.png>)
+
+Öppna inställningarna för ChatGPT/OpenAI-anslutningen.
+
+![Installerade GitHub-appar](<images/06 github settings för chatgptåtkomst 3.png>)
+
+GitHub kan i vissa lägen be dig bekräfta åtkomsten.
+
+![Bekräfta åtkomst](<images/07 github settings för chatgptåtkomst 4.png>)
+
+Under **Repository access** går det att välja vilka repositories ChatGPT ska få arbeta med.
+
+![Repository access](<images/08 github settings för chatgptåtkomst 5.png>)
+
+Lägg till eller ta bort repositories och spara.
+
+![Valt repository](<images/09 github settings för chatgptåtkomst 6.png>)
 
 ---
 
