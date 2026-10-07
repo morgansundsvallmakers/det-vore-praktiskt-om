@@ -4,16 +4,6 @@
 
 Det här är en steg-för-steg-handout som visar ett enkelt sätt att gå från en idé till en publicerad webbsida.
 
-Exemplet som byggs på slutet är medvetet litet:
-
-> **Det vore praktiskt om man kunde vrida och vända på 3D-modeller.**
-
-Vi skapar därför en enkel STL-visare som körs direkt i webbläsaren. Ingen lokal installation behövs för den som använder sidan, och själva STL-filen stannar i webbläsaren.
-
-Den färdiga sidan finns på:
-
-**https://morgansundsvallmakers.github.io/det-vore-praktiskt-om/**
-
 ### Öppna handouten på telefonen
 
 Skanna QR-koden för att öppna repot och den här handouten direkt på telefonen:
