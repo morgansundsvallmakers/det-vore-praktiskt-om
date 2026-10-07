@@ -53,7 +53,11 @@ Börja på GitHub och välj **New repository**.
 
 ![Skapa nytt repository](<images/01 skapa nytt repo på github.png>)
 
-Ge repot ett namn och en kort beskrivning. Det är praktiskt att låta GitHub skapa en README-fil direkt. Om du följer guiden från ett helt nytt konto kan inställningarna se ut ungefär så här:
+Ge repot ett namn och en kort beskrivning. Välj **Public** om du vill använda GitHub Pages enligt den här guiden, och låt gärna GitHub skapa en README-fil direkt.
+
+> **Tänk på:** ett publikt repo är synligt för alla. Lägg aldrig lösenord, API-nycklar, tokens eller annan känslig information i repot.
+
+Om du följer guiden från ett helt nytt konto kan inställningarna se ut ungefär så här:
 
 ![Första repot inför ChatGPT-kopplingen](<images/nytt repo - för att koppla chatgpt.png>)
 
@@ -101,19 +105,7 @@ Om det fungerar vet du att ChatGPT kan arbeta direkt i repot.
 
 ---
 
-## 4. Gör repot publikt om GitHub Pages ska användas gratis
-
-Jag skapade först repot privat och ändrade det sedan till publikt. Hade det varit publikt från början hade det här steget kunnat hoppas över.
-
-Under **Settings → General → Danger Zone** går det att ändra repositoryts synlighet.
-
-![Ändra repository visibility](<images/10 skapa nytt repo på github steg 2b rättar.png>)
-
-> **Tänk på:** ett publikt repo är synligt för alla. Lägg aldrig lösenord, API-nycklar, tokens eller annan känslig information i repot.
-
----
-
-## 5. Aktivera GitHub Pages
+## 4. Aktivera GitHub Pages
 
 GitHub Pages kan publicera en vanlig statisk webbsida direkt från repot.
 
@@ -143,7 +135,7 @@ För det här repot blir adressen:
 
 ---
 
-## 6. Börja med behovet – inte tekniken
+## 5. Börja med behovet – inte tekniken
 
 Nu kan du beskriva det du vill göra för ChatGPT.
 
@@ -159,7 +151,7 @@ ChatGPT kan hjälpa till att resonera om vad som behövs. För en enkel STL-visa
 
 ---
 
-## 7. Be ChatGPT bygga den första versionen
+## 6. Be ChatGPT bygga den första versionen
 
 Prompten behöver inte vara särskilt teknisk. Den här räckte:
 
@@ -179,7 +171,7 @@ I det här fallet blev det tre vanliga webbfiler:
 
 ---
 
-## 8. Öppna den färdiga sidan
+## 7. Öppna den färdiga sidan
 
 När filerna ligger på `main` publicerar GitHub Pages sidan automatiskt.
 
