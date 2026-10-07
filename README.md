@@ -133,7 +133,7 @@ För det här repot blir adressen:
 
 ---
 
-## 5. Börja med behovet – inte tekniken
+## 5. Planera lösningen med ChatGPT
 
 Nu kan du beskriva det du vill göra för ChatGPT.
 
