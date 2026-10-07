@@ -173,6 +173,20 @@ I det här fallet blev det tre vanliga webbfiler:
 
 När filerna ligger på `main` publicerar GitHub Pages sidan automatiskt.
 
+För att hitta adressen till sidan går du till repot på GitHub och väljer:
+
+**Settings → Pages**
+
+När publiceringen är klar visar GitHub länken till den publicerade sidan. Klicka på länken för att öppna webbplatsen.
+
+Adressen brukar ha formen:
+
+`https://ANVÄNDARNAMN.github.io/REPO-NAMN/`
+
+För det här projektet är adressen:
+
+**https://morgansundsvallmakers.github.io/det-vore-praktiskt-om/**
+
 Resultatet blev en STL-visare där man kan välja en lokal STL-fil och sedan vrida, zooma och panorera modellen direkt i webbläsaren.
 
 ![Den färdiga STL-visaren](<images/19 resultatet.png>)
