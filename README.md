@@ -205,7 +205,7 @@ Gå vidare till **Applications**.
 
 Öppna **Connections** och välj inställningarna för ChatGPT/OpenAI-anslutningen.
 
-![Connections](<images/06 github settings för chatgptåtkomst 3.png>)
+![Connections](<images/chatgpt-codex-connector.png>)
 
 GitHub kan i vissa lägen be dig bekräfta åtkomsten.
 
