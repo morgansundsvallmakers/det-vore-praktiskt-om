@@ -103,8 +103,6 @@ Gå till **Settings** för repot.
 
 Välj **Pages** i vänstermenyn.
 
-![GitHub Pages](<images/12 github settings för Pages 2.png>)
-
 För en enkel sida med vanlig HTML, CSS och JavaScript kan man välja:
 
 - **Source:** Deploy from a branch
