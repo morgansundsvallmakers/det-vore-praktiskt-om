@@ -63,8 +63,6 @@ När repot finns kan du koppla GitHub till ChatGPT.
 
 ChatGPT leder dig genom anslutningen. Beroende på hur ditt konto är inställt kan du behöva bekräfta autentisering eller använda tvåfaktorsautentisering.
 
-![Autentisering](<images/Free ChatGPT plugin 2.png>)
-
 Logga in på GitHub med det konto där du skapade repot.
 
 ![Logga in på GitHub](<images/Free ChatGPT plugin 3.png>)
