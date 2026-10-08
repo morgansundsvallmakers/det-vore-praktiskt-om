@@ -179,6 +179,22 @@ Resultatet blev en STL-visare där man kan välja en lokal STL-fil och sedan vri
 
 ---
 
+## 8. Fortsätt bygga vidare
+
+När sidan fungerar kan du fråga ChatGPT vilka fler möjligheter som finns i de bibliotek som redan används i projektet.
+
+Till exempel:
+
+> **Vad mer skulle man kunna göra med de bibliotek som redan används i det här projektet?**
+
+eller:
+
+> **Vilka funktioner i Three.js använder vi inte ännu?**
+
+Sådana öppna frågor kan ge idéer till nästa steg utan att man behöver börja om från början eller byta teknik i onödan.
+
+---
+
 ## Om du senare vill ge ChatGPT åtkomst till fler repositories
 
 När GitHub redan är kopplat till ChatGPT kan du senare ändra vilka repositories connectorn får åtkomst till.
