@@ -173,6 +173,12 @@ Resultatet blev en STL-visare där man kan välja en lokal STL-fil och sedan vri
 
 ![Den färdiga STL-visaren](<images/19 resultatet.png>)
 
+### Lägg till länken i repots About
+
+När sidan är publicerad kan du lägga GitHub Pages-adressen i repots **About**-fält. Då syns länken tydligt direkt på reposidan och det blir enkelt att öppna den färdiga appen.
+
+![Lägg till webbplatslänken i About](<images/steg 2 - 02 repo settings about website.png>)
+
 ---
 
 ## 8. Fortsätt bygga vidare
@@ -242,10 +248,6 @@ När projektet blir mer avancerat kan det vara praktiskt att gå vidare till ett
 När man använder Vite behöver appen först **byggas** innan den kan publiceras. Därför används **GitHub Actions** för att automatiskt bygga och publicera appen till GitHub Pages varje gång koden ändras.
 
 ![GitHub Actions bygger och publicerar appen](<images/steg 2 - 01 github actions.png>)
-
-I Pages-inställningarna används då **GitHub Actions** som källa i stället för **Deploy from a branch**.
-
-![GitHub Pages använder GitHub Actions](<images/steg 2 - 02 repo settings about website.png>)
 
 I samma projekt används också en **Web Worker** för bildanalysen. Workern kör beräkningarna separat från själva gränssnittet, så att sidan kan fortsätta svara på klick och reglage även när analysen arbetar.
 
