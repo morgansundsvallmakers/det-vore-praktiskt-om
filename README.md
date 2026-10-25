@@ -230,3 +230,34 @@ När projektet kräver mer — till exempel databas, autentisering, serverfunkti
 > **Det vore praktiskt om…**
 
 …kan det vara värt att beskriva idén för ChatGPT och se hur långt den går att ta.
+
+---
+
+## Steg 2 – när projektet behöver göra mer
+
+Den första guiden använder vanlig **HTML, CSS och JavaScript** som GitHub Pages kan publicera direkt från `main`.
+
+När projektet blir mer avancerat kan det vara praktiskt att gå vidare till ett modernare sätt att bygga webbappar. I projektet **Bild till 3D** används **React** tillsammans med **Vite**. React gör det enklare att dela upp gränssnittet i komponenter, hantera tillstånd och bygga mer interaktiva appar.
+
+När man använder Vite behöver appen först **byggas** innan den kan publiceras. Därför används **GitHub Actions** för att automatiskt bygga och publicera appen till GitHub Pages varje gång koden ändras.
+
+![GitHub Actions bygger och publicerar appen](<images/steg 2 - 01 github actions.png>)
+
+I Pages-inställningarna används då **GitHub Actions** som källa i stället för **Deploy from a branch**.
+
+![GitHub Pages använder GitHub Actions](<images/steg 2 - 02 repo settings about website.png>)
+
+I samma projekt används också en **Web Worker** för bildanalysen. Workern kör beräkningarna separat från själva gränssnittet, så att sidan kan fortsätta svara på klick och reglage även när analysen arbetar.
+
+Det här är tre tydliga steg vidare från den första enkla webbsidan:
+
+- **React** – modernare struktur för interaktiva webbappar
+- **GitHub Actions** – automatisk build och publicering
+- **Web Worker** – tunga beräkningar utan att gränssnittet fryser
+
+Grundidén är fortfarande densamma:
+
+**Idé → samtal med ChatGPT → filer på GitHub → GitHub Pages → fungerande webbsida**
+
+Skillnaden är att samma arbetssätt också går att använda när lösningen behöver bli mer avancerad.
+
